@@ -34,9 +34,9 @@ export default {
       listName: '',
       boardList: [
         // eslint-disable-next-line standard/object-curly-even-spacing
-        { id: 1, name: 'Todo'},
+        { id: '1', name: 'Todo'},
         // eslint-disable-next-line standard/object-curly-even-spacing
-        { id: 2, name: 'Doing'}
+        { id: '2', name: 'Doing'}
       ]
     }
   },

@@ -1,3 +1,4 @@
+<!-- eslint-disable standard/object-curly-even-spacing -->
 <template>
     <section>
         <header>

@@ -4,6 +4,7 @@
         <li v-for="(task, index) in tasks"
         :key="index"
         :class="{completed: task.completed}">
+        {{ task.title }}
         </li>
         <input
          type="text"
@@ -66,6 +67,8 @@ export default {
     background-color: #fafafa;
     border-bottom: 1px solid #ccc;
     margin: 0.25rem;
-    
+ }
+ ::placeholder{
+    color: #90a4ae;
  }
 </style>
