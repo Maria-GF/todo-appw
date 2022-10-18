@@ -11,21 +11,22 @@
 </template>
 
 <script>
-import TaskList from '@/TaskList'
+import TaskList from './TaskList'
 
 export default {
   name: 'column',
-  components: { taskList },
+  components: { TaskList },
   props: {
     listId: String,
     name: String
-  }
+  },
   data () {
     return {
-        tasksList: [
-            { id: 1, title: 'Comprar manzanas', completed: false },
-            { id: 2, title: 'Comprar naranjas', completed: false}
-        ]
+      tasksList: [
+        { id: 1, title: 'Comprar manzanas', completed: false },
+        // eslint-disable-next-line standard/object-curly-even-spacing
+        { id: 2, title: 'Comprar naranjas', completed: false}
+      ]
     }
   }
 }
