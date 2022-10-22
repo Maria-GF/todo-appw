@@ -24,9 +24,9 @@ export default {
   data () {
     return {
       tasksList: [
-        { id: 1, title: 'Comprar manzanas', completed: false },
+        { id: '1', title: 'Comprar manzanas', completed: false },
         // eslint-disable-next-line standard/object-curly-even-spacing
-        { id: 2, title: 'Comprar naranjas', completed: false}
+        { id: '2', title: 'Comprar naranjas', completed: false}
       ]
     }
   }
